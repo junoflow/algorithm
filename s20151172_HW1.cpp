@@ -8,7 +8,7 @@ int main(void) {
 	
 	int N_v;
 	int** A;
-    int* mst;
+	int* mst;
 
 	// file open to read
 	FILE* graph = fopen("In_Kruskal.txt","r");
