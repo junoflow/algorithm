@@ -12,4 +12,24 @@
 
 6. iterative merge가 뭔지 모르겠당.
 
-7. 
+7. 우리 배운 partition 쓰면 될 듯.
+굳이 적자면
+```
+Partition (A, left, right, p) {
+  index i, j;
+  key pitem;
+  pitem = A[left] // pivot element를 가장 왼쪽 것으로.
+  i = left; j = right+1;
+  do {
+    do i++;
+    while (A[i] < pitem) // pitem보다 크면 멈춤
+    do j--;
+    while (A[j] > pitem) // pitem보다 작으면 멈춤
+    if (i<j) exchange A[i] and A[j];
+  } while (i<j)
+  p = j;
+  exchange A[left] and A[p]
+}
+```
+
+8. 
