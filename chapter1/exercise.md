@@ -1,1 +1,1 @@
-#chater1 exercise
+# chapter1 exercise
