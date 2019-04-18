@@ -69,6 +69,7 @@ A[0] <-> A[4] (A[left] <-> A[p]
 
 11. Partition 대상의 크기가 1이 될 때까지 계속할 경우, 즉 small group엔 원소가 없고 Large group엔 n-1개의 원소가 속해 입력 크기가 1개만 줄어들게 되면 전체 비교 횟수가 n+(n-1)+...+2로 O(n<sup>2</sup>)이 되어버린다.
 
-12. <p> O(n+3/4n+(3/4)<sup>2</sup>n+...+(3/4)<sup>i-1</sup>n+(3/4)<sup>i</sup>n) </p>
-    <p> = O(n(1+3/4+(3/4)<sup>2</sup>+...+(3/4)<sup>i</sup>) </p>
-    <p> 1+3/4+(3/4)<sup>2</sup>+...+(3/4)<sup>i</sup>=∑<sub>n->∞</sub>(3/4)<sup>n</sup> </p>
+12.
+O(n+3/4n+(3/4)<sup>2</sup>n+...+(3/4)<sup>i-1</sup>n+(3/4)<sup>i</sup>n)
+= O(n(1+3/4+(3/4)<sup>2</sup>+...+(3/4)<sup>i</sup>) </p>
+1+3/4+(3/4)<sup>2</sup>+...+(3/4)<sup>i</sup>=∑<sub>n->∞</sub>(3/4)<sup>n</sup>
