@@ -7,3 +7,9 @@
 3. 부분문제의 수는 a<sup>i</sup>이고, 이 때의 입력 크기는 n/(b<sup>i</sup>)이다.
 
 4. 3을 바탕으로 생각해보면, 최대 분할 횟수 k=log<sub>b</sub>n이고, 이 때 부분문제의 수는 a<sup>log<sub>b</sub>n</sup>=n<sup>log<sub>b</sub>a</sup>개 이다.
+
+5. 생략
+
+6. iterative merge가 뭔지 모르겠당.
+
+7. 
