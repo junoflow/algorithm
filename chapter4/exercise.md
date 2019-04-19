@@ -36,7 +36,9 @@ for (i = 0; i < n; i++) {
 }
 
 for (i = 0; i < n; i++) {
-  S(n)
+  if int e∈(S<sub>i</sub>) {
+    A[e] = 1;
+  }
 }
 
 for (i = 0; i < x; i++) {
