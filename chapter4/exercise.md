@@ -37,7 +37,7 @@ for (i = 0; i < n; i++) {
 
 for (i = 0; i < n; i++) {
   if int e∈(S<sub>i</sub>) {
-    A[e] = 1;
+    A[e-1] = 1; // 배열의 index는 0부터 시작하지만, U의 원소는 1부터 시작하기 
   }
 }
 
